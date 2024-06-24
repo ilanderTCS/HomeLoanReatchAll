@@ -1,0 +1,99 @@
+/* Title Styles */
+.text-center::after{
+    content: url();
+    display: block;
+    width: 100px;
+    height: 5px;
+    background-color: #f5511e;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+/* Header Styles */
+header{
+    background-color: #f5511e;
+}
+body{
+    background-color: #f6f7f9;
+}
+/* Navbar Styles */
+.navbar{
+    background-color: #f6f7f9;
+}
+.navbar  a{
+    color: black;
+}
+.navbar .nav-item .nav-link{
+    color: #000100;
+}
+.navbar .nav-link .home:hover{
+    color: #f5511e;
+}
+/* Banner Styles */
+.carousel-inner{
+    position: relative;
+}
+  .carousel-caption{
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    text-align: left;
+}
+/* Offer Styles */
+#offer i{
+    color: #f5511e;
+    font-size: 25px;
+}
+#offer .card-text{
+    color: #797a7e;
+    text-align: justify;
+    word-break: break-all;
+}
+#offer .card-title{
+    color: #020003;
+}
+/* Application Styles */
+#application{
+    background-color:#f6f7f9 ;
+}
+#application i{
+    color: #f5511e;
+}
+/* News Styles */
+#news{
+    background-color:#f6f7f9 ;
+}
+#news .card-title{
+    color: #f5511e;
+}
+#news .card-text{
+    color: #979797;
+    text-align: justify;
+    word-break: break-all;
+}
+/* Footer Styles */
+#footer{
+    background-color: #0e0f11;
+    color: white;
+}
+#footer .text{
+    color: #b3b3b5;
+}
+#footer .input-group-text{
+    background-color: #f5511e;
+    color: white;
+    border: none;
+}
+#footer .text1{
+    color: #f44818;
+}
+#footer .input-group input{
+    background-color: #0b0d0c;
+    border: 1px solid #2d2d2d;
+}
+#footer .footer-footer .nav .nav-link{
+    color: white;
+}
+#footer .footer-footer .nav-link{
+    color: white;
+}
